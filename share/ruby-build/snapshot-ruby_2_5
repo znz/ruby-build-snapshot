@@ -1,0 +1,2 @@
+install_package "openssl-1.1.1g" "https://www.openssl.org/source/openssl-1.1.1g.tar.gz#ddb04774f1e32f0c49751e21b67216ac87852ceb056b75209af2443400636d46" mac_openssl --if has_broken_mac_openssl
+install_package "snapshot-ruby_2_5" "https://cache.ruby-lang.org/pub/ruby/snapshot/snapshot-ruby_2_5.tar.bz2" warn_unsupported ldflags_dirs autoconf standard_build standard_install_with_bundled_gems verify_openssl
